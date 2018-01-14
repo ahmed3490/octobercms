@@ -1,0 +1,988 @@
+.====================================================================.
+                                                                      
+ .d8888b.   .o8888b.   db  .d8888b.  d8888b. d88888b d8888b.  .d888b. 
+.8P    Y8. d8P    Y8   88 .8P    Y8. 88  `8D 88'     88  `8D .8P , Y8.
+88      88 8P      oooo88 88      88 88oooY' 88oooo  88oobY' 88  |  88
+88      88 8b      ~~~~88 88      88 88~~~b. 88~~~~  88`8b   88  |/ 88
+`8b    d8' Y8b    d8   88 `8b    d8' 88   8D 88.     88 `88. `8b | d8'
+ `Y8888P'   `Y8888P'   YP  `Y8888P'  Y8888P' Y88888P 88   YD  `Y888P' 
+                                                                      
+`========================== INSTALLATION LOG ========================'
+
+[2018/01/11 08:14:59] Host: Windows NT DESKTOP-90DB1AQ 10.0 build 15063 (Windows 10) i586
+[2018/01/11 08:14:59] PHP version: 7.1.10
+[2018/01/11 08:14:59] Server software: Apache/2.4.28 (Win32) OpenSSL/1.0.2l PHP/7.1.10
+[2018/01/11 08:14:59] Operating system: WINNT
+[2018/01/11 08:14:59] Memory limit: 128M
+[2018/01/11 08:14:59] Max execution time: 3600
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:01] Postback payload: Array
+(
+    [code] => phpVersion
+    [handler] => onCheckRequirement
+)
+
+[2018/01/11 08:15:01] System check: phpVersion
+[2018/01/11 08:15:01] Requirement phpVersion +OK
+[2018/01/11 08:15:01] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:01] Postback payload: Array
+(
+    [code] => curlLibrary
+    [handler] => onCheckRequirement
+)
+
+[2018/01/11 08:15:01] System check: curlLibrary
+[2018/01/11 08:15:01] Requirement curlLibrary +OK
+[2018/01/11 08:15:01] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:02] Postback payload: Array
+(
+    [code] => liveConnection
+    [handler] => onCheckRequirement
+)
+
+[2018/01/11 08:15:02] System check: liveConnection
+[2018/01/11 08:15:02] Server request: ping
+[2018/01/11 08:15:02] Request information: Array
+(
+    [url] => http://octobercms.com/api/ping
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 361
+    [request_size] => 175
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 4295.686296
+    [namelookup_time] => 0.125
+    [connect_time] => 0.204
+    [pretransfer_time] => 0.204
+    [size_upload] => 44
+    [size_download] => 12
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => 12
+    [upload_content_length] => 44
+    [starttransfer_time] => 4295.686296
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.113.12
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 192.168.0.26
+    [local_port] => 59890
+)
+
+[2018/01/11 08:15:02] Requirement liveConnection +OK
+[2018/01/11 08:15:02] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:03] Postback payload: Array
+(
+    [code] => writePermission
+    [handler] => onCheckRequirement
+)
+
+[2018/01/11 08:15:03] System check: writePermission
+[2018/01/11 08:15:03] Requirement writePermission +OK
+[2018/01/11 08:15:03] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:03] Postback payload: Array
+(
+    [code] => pdoLibrary
+    [handler] => onCheckRequirement
+)
+
+[2018/01/11 08:15:03] System check: pdoLibrary
+[2018/01/11 08:15:03] Requirement pdoLibrary +OK
+[2018/01/11 08:15:03] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:04] Postback payload: Array
+(
+    [code] => mbstringLibrary
+    [handler] => onCheckRequirement
+)
+
+[2018/01/11 08:15:04] System check: mbstringLibrary
+[2018/01/11 08:15:04] Requirement mbstringLibrary +OK
+[2018/01/11 08:15:04] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:05] Postback payload: Array
+(
+    [code] => fileinfoLibrary
+    [handler] => onCheckRequirement
+)
+
+[2018/01/11 08:15:05] System check: fileinfoLibrary
+[2018/01/11 08:15:05] Requirement fileinfoLibrary +OK
+[2018/01/11 08:15:05] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:05] Postback payload: Array
+(
+    [code] => sslLibrary
+    [handler] => onCheckRequirement
+)
+
+[2018/01/11 08:15:05] System check: sslLibrary
+[2018/01/11 08:15:05] Requirement sslLibrary +OK
+[2018/01/11 08:15:05] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:06] Postback payload: Array
+(
+    [code] => zipLibrary
+    [handler] => onCheckRequirement
+)
+
+[2018/01/11 08:15:06] System check: zipLibrary
+[2018/01/11 08:15:06] Requirement zipLibrary +OK
+[2018/01/11 08:15:06] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:06] Postback payload: Array
+(
+    [code] => gdLibrary
+    [handler] => onCheckRequirement
+)
+
+[2018/01/11 08:15:06] System check: gdLibrary
+[2018/01/11 08:15:06] Requirement gdLibrary +OK
+[2018/01/11 08:15:06] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:40] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => octorbercms
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Master
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateDatabase
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:40] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => octorbercms
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Master
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateAdminAccount
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:40] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => octorbercms
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Master
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateAdvancedConfig
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:58] Postback payload: Array
+(
+    [handler] => onGetPopularPlugins
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:15:58] Postback payload: Array
+(
+    [handler] => onGetPopularThemes
+)
+
+[2018/01/11 08:15:59] Server request: theme/popular
+[2018/01/11 08:15:59] Request information: Array
+(
+    [url] => http://octobercms.com/api/theme/popular
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 363
+    [request_size] => 184
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 4295.607296
+    [namelookup_time] => 0.046
+    [connect_time] => 0.109
+    [pretransfer_time] => 0.109
+    [size_upload] => 44
+    [size_download] => 3930
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => 3930
+    [upload_content_length] => 44
+    [starttransfer_time] => 4295.607296
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.113.12
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 192.168.0.26
+    [local_port] => 60057
+)
+
+[2018/01/11 08:15:59] Execute handler (onGetPopularThemes): Array
+(
+    [0] => Array
+        (
+            [name] => Clean Blog
+            [description] => Clean blogger theme.
+            [code] => Responsiv.Clean
+            [updated_at] => 2017-04-03 19:39:38
+            [image] => http://octobercms.com/storage/app/uploads/public/58e/304/7a4/thumb_6978_210_140_0_0_crop.png
+            [author] => Responsiv Internet
+            [hash] => 07e5b7066168a94349ac92018770c2e8
+            [demo_url] => http://daftspunk.com/
+            [product_url] => http://octobercms.com/theme/responsiv-clean
+        )
+
+    [1] => Array
+        (
+            [name] => New Age
+            [description] => Landing page for mobile apps
+            [code] => VojtaSvoboda.newage
+            [updated_at] => 2016-10-20 17:20:43
+            [image] => http://octobercms.com/storage/app/uploads/public/580/7eb/dc9/thumb_5770_210_140_0_0_crop.png
+            [author] => Vojta Svoboda
+            [hash] => 444285e995df7b9fbb11f5cd0b74ccc9
+            [demo_url] => https://blackrockdigital.github.io/startbootstrap-new-age/
+            [product_url] => http://octobercms.com/theme/vojtasvoboda-newage
+        )
+
+    [2] => Array
+        (
+            [name] => Stellar
+            [description] => a clean, responsive one page and blog theme
+            [code] => Zwiebl.zwiebl_stellar
+            [updated_at] => 2016-09-27 16:56:35
+            [image] => http://octobercms.com/storage/app/uploads/public/57e/bb4/fe9/thumb_5641_210_140_0_0_crop.png
+            [author] => Patrick Mitterer
+            [hash] => 19345446d87ad08e6937503019a43fd9
+            [demo_url] => https://demo.zwiebl.xyz/?theme=stellar
+            [product_url] => http://octobercms.com/theme/zwiebl-zwiebl-stellar
+        )
+
+    [3] => Array
+        (
+            [name] => Blank Bootstrap 4
+            [description] => A blank Bootstrap 4 template
+            [code] => Hambern.hambern-blank-bootstrap-4
+            [updated_at] => 2016-08-23 17:57:44
+            [image] => http://octobercms.com/storage/app/uploads/public/57b/9ba/c48/thumb_5365_210_140_0_0_crop.png
+            [author] => Mattias Hamberg
+            [hash] => 9a6762de633774de2cebf69a88f290d1
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/hambern-hambern-blank-bootstrap-4
+        )
+
+    [4] => Array
+        (
+            [name] => Bonjour
+            [description] => A sample multi-lingual theme for translated content.
+            [code] => RainLab.Bonjour
+            [updated_at] => 2016-07-03 21:05:29
+            [image] => http://octobercms.com/storage/app/uploads/public/577/9df/850/thumb_4911_210_140_0_0_crop.png
+            [author] => RainLab
+            [hash] => f1084f81e0e1c5c8d22317794292deb3
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/rainlab-bonjour
+        )
+
+    [5] => Array
+        (
+            [name] => Viola
+            [description] => One Page Theme based on Bootstrap 4 with different color schemes, scss files included
+            [code] => JumpLink.Viola
+            [updated_at] => 2016-07-11 09:55:39
+            [image] => http://octobercms.com/storage/app/uploads/public/574/6af/435/thumb_4705_210_140_0_0_crop.png
+            [author] => JumpLink
+            [hash] => fe09a3915724fcc241e0e5914c8ea346
+            [demo_url] => http://healthyteeth.jumplink.eu/
+            [product_url] => http://octobercms.com/theme/jumplink-viola
+        )
+
+    [6] => Array
+        (
+            [name] => Relax
+            [description] => A fictional site called House of Chairs that demonstrates how to build a client-friendly website.
+            [code] => RainLab.Relax
+            [updated_at] => 2015-07-01 19:16:08
+            [image] => http://octobercms.com/storage/app/uploads/public/559/49e/2da/thumb_2585_210_140_0_0_crop.png
+            [author] => RainLab
+            [hash] => a35c64b09ad6347b8a226291e5b8fd75
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/rainlab-relax
+        )
+
+    [7] => Array
+        (
+            [name] => Vanilla
+            [description] => A plain starter template that implements account management, a blog and community forum.
+            [code] => RainLab.Vanilla
+            [updated_at] => 2015-04-14 16:37:36
+            [image] => http://octobercms.com/storage/app/uploads/public/552/da4/0f8/thumb_2106_210_140_0_0_crop.png
+            [author] => RainLab
+            [hash] => 4b893d1c085a298e9b9b1d13635a675f
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/rainlab-vanilla
+        )
+
+    [8] => Array
+        (
+            [name] => Flat UI
+            [description] => A theme that uses a Flat user-interface and has no dependencies on others plugins.
+            [code] => Responsiv.Flat
+            [updated_at] => 2014-07-23 21:32:51
+            [image] => http://octobercms.com/storage/app/uploads/public/53d/084/fbc/thumb_543_210_140_0_0_crop.png
+            [author] => Responsiv Internet
+            [hash] => 750c624b9caf218672764a1410160808
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/responsiv-flat
+        )
+
+)
+
+[2018/01/11 08:15:59] Server request: plugin/popular
+[2018/01/11 08:15:59] Request information: Array
+(
+    [url] => http://octobercms.com/api/plugin/popular
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 363
+    [request_size] => 185
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 4295.607296
+    [namelookup_time] => 0.031
+    [connect_time] => 0.109
+    [pretransfer_time] => 0.109
+    [size_upload] => 44
+    [size_download] => 2751
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => 2751
+    [upload_content_length] => 44
+    [starttransfer_time] => 4295.607296
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.113.12
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 192.168.0.26
+    [local_port] => 60056
+)
+
+[2018/01/11 08:15:59] Execute handler (onGetPopularPlugins): Array
+(
+    [0] => Array
+        (
+            [name] => Notify
+            [description] => Notification engine and services
+            [code] => RainLab.Notify
+            [updated_at] => 2017-09-11 19:16:29
+            [image] => http://octobercms.com/storage/app/uploads/public/59b/741/b78/thumb_8010_64_64_0_0_auto.png
+            [author] => RainLab
+            [hash] => caf4d0c44eb83e3f7a9402bfd1c24522
+            [demo_url] => 
+            [product_url] => http://octobercms.com/plugin/rainlab-notify
+        )
+
+    [1] => Array
+        (
+            [name] => Builder
+            [description] => Create a fully functional plugin scaffold in a matter of minutes
+            [code] => RainLab.Builder
+            [updated_at] => 2016-02-10 06:24:20
+            [image] => http://octobercms.com/storage/app/uploads/public/56b/aca/9eb/thumb_3841_64_64_0_0_auto.png
+            [author] => RainLab
+            [hash] => c112edd72df403a2514b68e238285d2b
+            [demo_url] => 
+            [product_url] => http://octobercms.com/plugin/rainlab-builder
+        )
+
+    [2] => Array
+        (
+            [name] => Location
+            [description] => Adds location based features, such as Country and State.
+            [code] => RainLab.Location
+            [updated_at] => 2015-09-25 22:21:18
+            [image] => http://octobercms.com/storage/app/uploads/public/560/62a/c6d/thumb_2994_64_64_0_0_auto.png
+            [author] => RainLab
+            [hash] => d988a56f7264d6ff7d12c19aee2ffa0a
+            [demo_url] => 
+            [product_url] => http://octobercms.com/plugin/rainlab-location
+        )
+
+    [3] => Array
+        (
+            [name] => Sitemap
+            [description] => Generate a sitemap.xml file for your website.
+            [code] => RainLab.Sitemap
+            [updated_at] => 2014-11-19 23:50:15
+            [image] => http://octobercms.com/storage/app/uploads/public/546/c40/98b/thumb_959_64_64_0_0_auto.png
+            [author] => RainLab
+            [hash] => 606e842436cc3134b99db8c2a29b9423
+            [demo_url] => 
+            [product_url] => http://octobercms.com/plugin/rainlab-sitemap
+        )
+
+    [4] => Array
+        (
+            [name] => Twitter
+            [description] => This plugin adds a Twitter features to your page.
+            [code] => RainLab.Twitter
+            [updated_at] => 2014-07-14 01:07:53
+            [image] => http://octobercms.com/storage/app/uploads/public/537/288/83c/thumb_26_64_64_0_0_auto.png
+            [author] => RainLab
+            [hash] => dc5827e307b3d4996229ef78a1cd3658
+            [demo_url] => 
+            [product_url] => http://octobercms.com/plugin/rainlab-twitterfeed
+        )
+
+    [5] => Array
+        (
+            [name] => MailChimp
+            [description] => Provides MailChimp integration services.
+            [code] => RainLab.MailChimp
+            [updated_at] => 2014-05-12 01:53:25
+            [image] => http://octobercms.com/storage/app/uploads/public/537/210/7f3/thumb_22_64_64_0_0_auto.png
+            [author] => RainLab
+            [hash] => fd754a9a63bdde71c32806fa620139f5
+            [demo_url] => 
+            [product_url] => http://octobercms.com/plugin/rainlab-mailchimp
+        )
+
+    [6] => Array
+        (
+            [name] => User
+            [description] => Front-end user management.
+            [code] => RainLab.User
+            [updated_at] => 2014-05-02 00:49:16
+            [image] => http://octobercms.com/storage/app/uploads/public/540/8f2/a51/thumb_728_64_64_0_0_auto.png
+            [author] => RainLab
+            [hash] => 33e751c0faee883c303f9a26c307664c
+            [demo_url] => 
+            [product_url] => http://octobercms.com/plugin/rainlab-user
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:17:00] Postback payload: Array
+(
+    [project_id] => *******
+    [handler] => onProjectDetails
+)
+
+[2018/01/11 08:17:01] Server request: project/detail
+[2018/01/11 08:17:01] Request information: Array
+(
+    [url] => http://octobercms.com/api/project/detail
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 362
+    [request_size] => 250
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 4295.514296
+    [namelookup_time] => 0.016
+    [connect_time] => 0.078
+    [pretransfer_time] => 0.078
+    [size_upload] => 108
+    [size_download] => 552
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => 552
+    [upload_content_length] => 108
+    [starttransfer_time] => 4295.514296
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.113.12
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 192.168.0.26
+    [local_port] => 60236
+)
+
+[2018/01/11 08:17:01] Execute handler (onProjectDetails): Array
+(
+    [name] => NGO project
+    [description] => 
+    [owner] => Allen
+    [plugins] => Array
+        (
+        )
+
+    [themes] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Bulma Boilerplate Theme
+                    [description] => An OctoberCMS Theme for developpers, uses Bulma for CSS - Vue for Javascript - Webpack to build styles, optimize images, compile javascript and VueJs.
+                    [code] => Ksoft.ksoft-bulma
+                    [updated_at] => 2017-08-16 16:47:31
+                    [image] => http://octobercms.com/storage/app/uploads/public/599/2ed/fda/thumb_7880_210_140_0_0_auto.jpg
+                    [author] => October
+                    [hash] => 0965d9afe137232cce4e15332b63498b
+                    [demo_url] => 
+                    [product_url] => 
+                )
+
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:17:01] Postback payload: Array
+(
+    [handler] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:17:01] Postback payload: Array
+(
+    [handler] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:17:06] Postback payload: Array
+(
+    [step] => getMetaData
+    [meta] => 
+    [themes] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Bulma Boilerplate Theme
+                    [description] => An OctoberCMS Theme for developpers, uses Bulma for CSS - Vue for Javascript - Webpack to build styles, optimize images, compile javascript and VueJs.
+                    [code] => Ksoft.ksoft-bulma
+                    [updated_at] => 2017-08-16 16:47:31
+                    [image] => http://octobercms.com/storage/app/uploads/public/599/2ed/fda/thumb_7880_210_140_0_0_auto.jpg
+                    [author] => October
+                    [hash] => 0965d9afe137232cce4e15332b63498b
+                    [demo_url] => 
+                    [product_url] => 
+                )
+
+        )
+
+    [project_id] => *******
+    [handler] => onInstallStep
+)
+
+[2018/01/11 08:17:06] Install step: getMetaData
+[2018/01/11 08:17:06] Server request: core/install
+[2018/01/11 08:17:06] Request information: Array
+(
+    [url] => http://octobercms.com/api/core/install
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 362
+    [request_size] => 285
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 4295.654296
+    [namelookup_time] => 0.015
+    [connect_time] => 0.078
+    [pretransfer_time] => 0.078
+    [size_upload] => 145
+    [size_download] => 186
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => 186
+    [upload_content_length] => 145
+    [starttransfer_time] => 4295.654296
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.113.12
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 192.168.0.26
+    [local_port] => 60260
+)
+
+[2018/01/11 08:17:06] Step getMetaData +OK
+[2018/01/11 08:17:06] Execute handler (onInstallStep): Array
+(
+    [result] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 9f9b34bc59c88c85574bf568ddcc9996
+                    [build] => 431
+                    [uhash] => e9b455a75a51da6b52356fc768553e9c
+                )
+
+            [plugins] => Array
+                (
+                )
+
+            [themes] => Array
+                (
+                    [Ksoft.ksoft-bulma] => 0965d9afe137232cce4e15332b63498b
+                )
+
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:17:07] Postback payload: Array
+(
+    [step] => downloadCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 9f9b34bc59c88c85574bf568ddcc9996
+                    [build] => 431
+                    [uhash] => e9b455a75a51da6b52356fc768553e9c
+                )
+
+            [themes] => Array
+                (
+                    [Ksoft.ksoft-bulma] => 0965d9afe137232cce4e15332b63498b
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2018/01/11 08:17:07] Install step: downloadCore
+[2018/01/11 08:18:48] Saving to file (core): D:/Xampp/htdocs/octobercms/install_files/temp/a74ad8dfacd4f985eb3977517615ce25.arc
+[2018/01/11 08:18:48] Step downloadCore +OK
+[2018/01/11 08:18:48] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:18:49] Postback payload: Array
+(
+    [step] => downloadTheme
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 9f9b34bc59c88c85574bf568ddcc9996
+                    [build] => 431
+                    [uhash] => e9b455a75a51da6b52356fc768553e9c
+                )
+
+            [themes] => Array
+                (
+                    [Ksoft.ksoft-bulma] => 0965d9afe137232cce4e15332b63498b
+                )
+
+        )
+
+    [name] => Ksoft.ksoft-bulma
+    [project_id] => *******
+    [handler] => onInstallStep
+)
+
+[2018/01/11 08:18:49] Install step: downloadTheme
+[2018/01/11 08:19:10] Saving to file (Ksoft.ksoft-bulma-theme): D:/Xampp/htdocs/octobercms/install_files/temp/112aeb20e097b5b07b07a0a3b5b45279.arc
+[2018/01/11 08:19:10] Step downloadTheme +OK
+[2018/01/11 08:19:10] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:19:10] Postback payload: Array
+(
+    [step] => extractCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 9f9b34bc59c88c85574bf568ddcc9996
+                    [build] => 431
+                    [uhash] => e9b455a75a51da6b52356fc768553e9c
+                )
+
+            [themes] => Array
+                (
+                    [Ksoft.ksoft-bulma] => 0965d9afe137232cce4e15332b63498b
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2018/01/11 08:19:10] Install step: extractCore
+[2018/01/11 08:19:10] Extracting file (core): a74ad8dfacd4f985eb3977517615ce25.arc
+[2018/01/11 08:19:31] Step extractCore +OK
+[2018/01/11 08:19:31] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:19:31] Postback payload: Array
+(
+    [step] => extractTheme
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 9f9b34bc59c88c85574bf568ddcc9996
+                    [build] => 431
+                    [uhash] => e9b455a75a51da6b52356fc768553e9c
+                )
+
+            [themes] => Array
+                (
+                    [Ksoft.ksoft-bulma] => 0965d9afe137232cce4e15332b63498b
+                )
+
+        )
+
+    [name] => Ksoft.ksoft-bulma
+    [project_id] => *******
+    [handler] => onInstallStep
+)
+
+[2018/01/11 08:19:31] Install step: extractTheme
+[2018/01/11 08:19:31] Extracting file (Ksoft.ksoft-bulma-theme): 112aeb20e097b5b07b07a0a3b5b45279.arc
+[2018/01/11 08:19:32] Step extractTheme +OK
+[2018/01/11 08:19:32] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:19:32] Postback payload: Array
+(
+    [step] => setupConfig
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 9f9b34bc59c88c85574bf568ddcc9996
+                    [build] => 431
+                    [uhash] => e9b455a75a51da6b52356fc768553e9c
+                )
+
+            [themes] => Array
+                (
+                    [Ksoft.ksoft-bulma] => 0965d9afe137232cce4e15332b63498b
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => octorbercms
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Master
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onInstallStep
+)
+
+[2018/01/11 08:19:32] Install step: setupConfig
+[2018/01/11 07:19:33] Step setupConfig +OK
+[2018/01/11 07:19:33] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:19:33] Postback payload: Array
+(
+    [step] => createAdmin
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 9f9b34bc59c88c85574bf568ddcc9996
+                    [build] => 431
+                    [uhash] => e9b455a75a51da6b52356fc768553e9c
+                )
+
+            [themes] => Array
+                (
+                    [Ksoft.ksoft-bulma] => 0965d9afe137232cce4e15332b63498b
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => octorbercms
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Admin
+    [admin_last_name] => Master
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onInstallStep
+)
+
+[2018/01/11 08:19:33] Install step: createAdmin
+[2018/01/11 07:19:37] Step createAdmin +OK
+[2018/01/11 07:19:37] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:19:38] Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2018/01/11 08:19:38] Install step: setupProject
+[2018/01/11 07:19:39] Step setupProject +OK
+[2018/01/11 07:19:39] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2018/01/11 08:19:39] Postback payload: Array
+(
+    [step] => finishInstall
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 9f9b34bc59c88c85574bf568ddcc9996
+                    [build] => 431
+                    [uhash] => e9b455a75a51da6b52356fc768553e9c
+                )
+
+            [themes] => Array
+                (
+                    [Ksoft.ksoft-bulma] => 0965d9afe137232cce4e15332b63498b
+                )
+
+        )
+
+    [hash] => 9f9b34bc59c88c85574bf568ddcc9996
+    [build] => 431
+    [uhash] => e9b455a75a51da6b52356fc768553e9c
+    [handler] => onInstallStep
+)
+
+[2018/01/11 08:19:39] Install step: finishInstall
+[2018/01/11 07:19:40] Cleaning up file: 112aeb20e097b5b07b07a0a3b5b45279.arc
+[2018/01/11 07:19:40] Cleaning up file: a74ad8dfacd4f985eb3977517615ce25.arc
+[2018/01/11 07:19:40] Step finishInstall +OK
+[2018/01/11 07:19:40] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
